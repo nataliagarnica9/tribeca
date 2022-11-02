@@ -5,13 +5,13 @@
 
 .logo-tribeca {
   background: #F7F2EC;
-  height: 10em;
+  height: 5em;
+  display: flex;
 }
 
 .logo-tribeca img{
-  width: 200px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 160px;
+  margin: 0 auto;
 }
 
 
