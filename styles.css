@@ -1,0 +1,21 @@
+* {
+ padding: 0;
+ margin: 0; 
+}
+
+.logo-tribeca {
+  background: #F7F2EC;
+  height: 10em;
+}
+
+.logo-tribeca img{
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/**
+COLORES
+Fondo: #F7F2EC
+*/
