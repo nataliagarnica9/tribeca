@@ -1,6 +1,7 @@
 * {
  padding: 0;
  margin: 0; 
+ font-family: 'Libre Franklin', sans-serif;
 }
 
 .logo-tribeca {
@@ -18,4 +19,12 @@
 /**
 COLORES
 Fondo: #F7F2EC
+*/
+
+
+/**
+Fuentes 
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Nunito', sans-serif;
 */
