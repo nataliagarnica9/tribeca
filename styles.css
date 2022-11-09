@@ -6,15 +6,39 @@
 
 .logo-tribeca {
   background: #F7F2EC;
-  height: 5em;
+  height: 7em;
   display: flex;
 }
 
 .logo-tribeca img{
-  width: 160px;
+  width: 220px;
   margin: 0 auto;
 }
 
+.buscar {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  border: 0;
+  border-bottom: 2px solid #EAEDED;
+  border-radius: 0;
+  background: transparent;
+}
+
+.buscar:focus {
+  border-color: transparent;
+  -webkit-box-shadow: 1px 32px 84px -52px rgba(87,87,87,1);
+-moz-box-shadow: 1px 32px 84px -52px rgba(87,87,87,1);
+box-shadow: 1px 32px 84px -52px rgba(87,87,87,1);
+}
+
+.buscar:focus-visible {
+  outline: none !important;
+}
 
 /**
 COLORES
