@@ -1,7 +1,7 @@
 * {
  padding: 0;
  margin: 0; 
- font-family: 'Libre Franklin', sans-serif;
+ font-family: 'Raleway', sans-serif;
 }
 
 .logo-tribeca {
@@ -17,7 +17,7 @@
 
 .buscar {
   display: block;
-  width: 100%;
+  width: 25em;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   font-weight: 400;
@@ -30,19 +30,50 @@
 }
 
 .buscar:focus {
-  border-color: transparent;
-  -webkit-box-shadow: 1px 32px 84px -52px rgba(87,87,87,1);
--moz-box-shadow: 1px 32px 84px -52px rgba(87,87,87,1);
-box-shadow: 1px 32px 84px -52px rgba(87,87,87,1);
+  /**border-color: transparent;*/
+  -webkit-box-shadow: -1px 36px 50px -16px rgba(0,0,0,0.46); 
+  box-shadow: -1px 36px 50px -16px rgba(0,0,0,0.46);
+  background: #F8F9F9;
 }
 
 .buscar:focus-visible {
   outline: none !important;
 }
 
+.btn-gris {
+  background: transparent;
+  color: #ABB2B9;
+  border: 0;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  padding: 0.375rem 0.75rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin: 0 5px;
+}
+
+.btn-gris:hover {
+  color: #566573;
+}
+
+.carousel-inner {
+  height: 400px;
+}
+
+.texto-sobre-nosotros {
+  background: #BFC9CA;
+  color: #566573;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.img-pr-tribeca {
+  
+}
+
 /**
 COLORES
-Fondo: #F7F2EC
+Fondo beige: #F7F2EC
+Gris claro: #EAEDED
 */
 
 
