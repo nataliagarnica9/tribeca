@@ -7,14 +7,12 @@ html{
     box-sizing: inherit;
 }
 
-.img-fondo{
-background-color:rgba(248, 249, 249);
-}
+
 img{
     width: 100%;
 }
 .velo-negro{
-    background-color:rgba(0, 0, 0, 0.5);
+    background-color:#F7F2EC;
 }
 
 .contenedor{
@@ -32,14 +30,14 @@ img{
     margin: 3rem 0;
 }
 
-nav{
+/* nav{
     margin: 3rem 0 8rem 0;
     background-color: rgba(255, 55, 55, 0.768);
     padding: 2rem;
     display: flex;
     justify-content: center;
     gap: 10rem;
-}
+} */
 a{
     text-decoration: none;
 }
@@ -56,7 +54,7 @@ nav a:hover{
 
 .nustros-productos{
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: #424949;
     font-size: 4rem;
     text-align: center;
     text-transform: uppercase;
@@ -65,22 +63,22 @@ nav a:hover{
 
 .productos{
    display: grid;
-   grid-template-columns: repeat(3,1fr);
+   grid-template-columns: repeat(4,1fr);
 
    
 }
-.producto{
+ .producto{
     background-color: white;
-    margin: 2rem;
-    padding: 2rem;
-}
+    margin: 1rem;
+    padding: 1rem;
+} 
 
 .producto-blanco{
     background-color: white;
     height: 40rem;
     object-fit: contain;
     padding: 1rem;
-}
+} 
 
 .producto-precio,
 .producto-nombre{
