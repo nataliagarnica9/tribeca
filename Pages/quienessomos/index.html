@@ -1,40 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-	<header class="menu__contenedor">
-      <div>
-        <p><a href=https://www.instagram.com/tribeca.home/ target="blank" class="menu_logo"> @Tribeca.home</a></p>
+  <body>
+  
+    <div class="sticky" id="navbar">
+      <div style="position: absolute; width: 100%; z-index: 100;">
+  
+        <div class="topnav">
+          <a href="javascript:void(0);" style="font-size:21px;" class="icon" onclick="myFunction()">&#9776;</a>
+          <div class="active home logo">
+            <a href="#"><img class="logoimg" src="https://gallery.mailchimp.com/918a55afcb7ff18e533d4b663/images/f0230132-7c99-47d8-8ae7-4c6f8af5ec42.png"></a>
+          </div>
+          <div class="botones" style="float:right;">
+            <button class="btn-llamadas"><i class="fas fa-phone"></i> +562 2222222</button>
+            <button class="btn-contacto"><i class="fas fa-envelope"></i> Contacto</button>
+          </div>
+        </div>
+  
+        <div class="topnav topnav2" id="myTopnav">
+          <div class="menunav">
+            <div class="dropmenu dropdown">
+              <button class="dropbtn">Menu1 
+              <i class="fa fa-angle-down"></i>
+            </button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+            <div class="dropmenu dropdown">
+              <button class="dropbtn">Menu2 
+              <i class="fa fa-angle-down"></i>
+            </button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+            <div class="dropmenu dropdown">
+              <button class="dropbtn">Menu3 
+              <i class="fa fa-angle-down"></i>
+            </button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+            <div class="dropmenu dropdown">
+              <button class="dropbtn">Menu4 
+              <i class="fa fa-angle-down"></i>
+            </button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <nav class="menu-contenedor__items" id="jsMenu">
-        <ul>
-          <li class="menu_item"><a class="menu_enlace enlace--active" href="#">Home</a></li>
-          <li class="menu_item"><a class="menu_enlace" href="#">¿Qué hacemos?</a></li>
-          <li class="menu_item"><a class="menu_enlace" href="#">Quienes Somos</a></li>
-          <li class="menu_item"><a class="menu_enlace" href="#">Contacto</a></li>
-          <li class="menu_item"><a class="menu_enlace" href="#">Novedades</a></li>
-        </ul>
-      </nav>
-      <div class="contenedor__icono">
-        <span class="fa fa-bars" id="jsMenuIcon"></span>
-      </div>
-  </header>
+  
+    </div>
     
-  <section class="notificacion">
-    <title>Tribeca Home</title>
-    <h2 class="notificacion_title">Quienes Somos</h2>
-
-    <h1 class="notificacion__title">¿Quienes Somos??</h1>
-    <p class="notificacion__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusamus nemo hic vitae, perspiciatis beatae eaque eos natus repudiandae similique eum, aliquid sed, voluptatibus animi in voluptatum quisquam rem libero..</p>
-    <p class="notificacion__parrafo">*Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, impedit rem facilis, repellendus ad non incidunt accusamus in dicta deleniti sit veniam suscipit libero quos provident voluptatem doloribus ipsa ut.</p>
-  </section>
+    <div class="seccion1">
+      <div class="seccion-interior">
+        <h2>Sobre Nosotros</h2>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut euismod nisl. Cras ut dignissim sapien. </p>
+      </div>
+    </div>
+   
+    <div class="seccionx">
+      
+      <div class="sobrenos-titulo sobrenos-titulo2">
+        <h1>Que nos motiva</h1>
+      </div>
+      
+      <div class="sobrenos-parrafo"> <p>Nos mueve el contribuir a la gestión de negocios de nuestros clientes, generando valor en sus procesos administrativos y de toma de decisiones a través del uso de la tecnología. Nuestra experiencia y compromiso nos permite desarrollar, comercializar e implantar exitosamente soluciones de gestión empresarial y servicios tecnológicos.</p>
+      </div>
+      
+    </div>
+    
+    <div class="seccion3"> 
+      <div class="contenido-num">
+        <div class="icon">
+          <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="numero">
+          <p> 30.000 </p>
+        </div>
+        <div class="titulo">
+          <p> Proyectos Realizados </p>
+        </div>
+      </div>
+      <hr>
+      <div class="contenido-num">
+        <div class="icon">
+          <i class="far fa-handshake"></i>
+        </div>
+        <div class="numero">
+          <p> 1.500 </p>
+        </div>
+        <div class="titulo">
+          <p> Clientes </p>
+        </div>
+      </div>
+      <hr>
+      <div class="contenido-num">
+        <div class="icon">
+          <i class="fas fa-trophy"></i>
+        </div>
+        <div class="numero">
+          <p>42</p>
+        </div>
+        <div class="titulo">
+          <p>Años de Experiencia</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="seccionx">
+      
+      <div class="sobrenos-titulo sobrenos-titulo1">
+        <h1>Nuestro Equipo</h1>
+      </div>
+      
+      <div class="sobrenos-parrafo"> <p>Tenemos como objetivo lograr un equipo comprometido, motivado, capaz de mejorar los ingresos de la compañía, capturando oportunidades relevantes y aumentando nuestra participación en el segmento Pymes sin desatender el core del negocio; para consolidarnos como una marca reconocida por su alto grado de satisfacción de clientes en la oferta de soluciones integrales de tecnología.</p>
+      </div>
+      
+    </div>
+  
+    <div class="seccion5">
+      <div class="elemento"> 
+          <div class="icon-rounded">
+            <i class="fas fa-medal"></i>
+          </div>
+          <div class="titulo">
+            <h4> Experiencia </h4>
+          </div>
+          <div class="parrafo">
+            <p> Aprendemos y transmitimos el conocimiento, respetando la experiencia y logrando superación. </p>
+          </div>
+        </div>
+        <div class="separador"> </div>
+      <div class="elemento"> 
+          <div class="icon-rounded">
+            <i class="far fa-lightbulb"></i>
+          </div>
+          <div class="titulo">
+            <h4> Innovación </h4>
+          </div>
+          <div class="parrafo">
+            <p> Nacemos, creamos y nos renovamos, atentos y dispuestos al cambio para crecer y lograr la madurez. </p>
+          </div>
+        </div>
+        <div class="separador"> </div>
+      <div class="elemento"> 
+          <div class="icon-rounded">
+            <i class="far fa-thumbs-up"></i>
+          </div>
+          <div class="titulo">
+            <h4> Servicio </h4>
+          </div>
+          <div class="parrafo">
+            <p> Aquí todos nuestros clientes importan y es por ello que trabajamos para darles un excelente servicio. </p>
+          </div>
+        </div>
+        <div class="separador"> </div>
+      <div class="elemento"> 
+          <div class="icon-rounded">
+            <i class="fas fa-hand-holding-heart"></i>
+          </div>
+          <div class="titulo">
+            <h4> Confianza </h4>
+          </div>
+          <div class="parrafo">
+            <p> Entregar confianza a nuestros socios es fundamental para demostrarles el respaldo y la certeza de nuestro apoyo.</p>
+          </div>
+        </div>
+    </div>
+    
+    <div class="seccionx">
+      
+      <div class="sobrenos-titulo sobrenos-titulo2">
+        <h1>Nosotros Ahora</h1>
+      </div>
+      
+      <div class="sobrenos-parrafo"> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut euismod nisl. Cras ut dignissim sapien. Nulla faucibus neque tellus, molestie ornare massa dictum at. Nunc rhoncus et orci sed accumsan. 
+        <br>
+        Proin nisi sem, condimentum ut dolor quis, faucibus ullamcorper sem. Phasellus dui libero, malesuada quis blandit ac, interdum sed felis. Sed interdum ultricies congue.</p>
+      </div>
+      
+    </div>
+  
+    <div class="seccion6">
+      <h3> Directorio </h3>
+      <div class="miembro">
+        <div class="avatar">
+          <img src="http://www.colonialkc.org/wp-content/uploads/2015/07/placeholder_square.jpg"> 
+        </div>
+        <h4> Nombre Apellido</h4>
+        <h5> Cargo </h5>
+      </div>
+  
+      <div class="miembro">
+        <div class="avatar">
+          <img src="http://www.colonialkc.org/wp-content/uploads/2015/07/placeholder_square.jpg"> 
+        </div>
+        <h4> Nombre Apellido</h4>
+        <h5> Cargo </h5>
+      </div>
+  
+      <div class="miembro">
+        <div class="avatar">
+          <img src="http://www.colonialkc.org/wp-content/uploads/2015/07/placeholder_square.jpg"> 
+        </div>
+        <h4> Nombre Apellido</h4>
+        <h5> Cargo </h5>
+      </div>
+  
+    </div>
+    
+    <div class="seccionx" hidden>
+      
+      <div class="sobrenos-titulo sobrenos-titulo1">
+        <h1>Sobre el futuro</h1>
+      </div>
+      
+      <div class="sobrenos-parrafo"> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut euismod nisl. Cras ut dignissim sapien. Nulla faucibus neque tellus, molestie ornare massa dictum at. Nunc rhoncus et orci sed accumsan. 
+        <br>
+        Proin nisi sem, condimentum ut dolor quis, faucibus ullamcorper sem. Phasellus dui libero, malesuada quis blandit ac, interdum sed felis. Sed interdum ultricies congue.</p>
+      </div>
+      
+    </div>
+   
+    <div class=" seccion-futuro seccionx ">
+      
+      <div class="futuro-titulo sobrenos-titulo ">
+        <h1>Sobre el futuro</h1>
+      </div>
+      
+      <div class="futuro-parrafo sobrenos-parrafo "> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut euismod nisl. Cras ut dignissim sapien. Nulla faucibus neque tellus, molestie ornare massa dictum at. Nunc rhoncus et orci sed accumsan. 
+        <br>
+        Proin nisi sem, condimentum ut dolor quis, faucibus ullamcorper sem. Phasellus dui libero, malesuada quis blandit ac, interdum sed felis. Sed interdum ultricies congue.</p>
+      </div>
+      
+    </div>
+  
+    
+    <div class="footer">
+      <div class="contenido">
+        <div class="fila">
+          <div class="columna">
+            <div class="lista">
+              <h5><a href="#">Home</a></h5>
+            </div>          
+            <div class="lista">
+              <h5><a href="#">Nosotros</a></h5>
+            </div>
+            <div class="lista">
+              <h5><a href="#">Contacto</a></h5>
+            </div>
+          </div>
+          <div class="columna">
+            <div class="lista">
+              <h5>Nuestros Productos</h5>
+              <ul>
+                <a href="#"><li>INET</li></a>
+                <a href="#"><li>iFacture</li></a>
+                <a href="#"><li>iSmart</li></a>
+                <a href="#"><li>iProperty</li></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="fila">
+          <div class="columna">
+            <div class="lista">
+              <h5>Servicios</h5>
+              <ul>
+                <a href="#"><li>Servicios Cloud </li></a>
+                <a href="#"><li>Implementación de Proyectos </li></a>
+                <a href="#"><li>Servicio al Cliente </li></a>
+                <a href="#"><li>Capacitaciones Diagnóstico de Proyectos </li></a>
+                <a href="#"><li>Tecnología y Plataformas</li></a>
+              </ul>
+            </div>
+          </div>
+          <div class="columna">
+            <div class="lista">
+              <h5>Partners Microsoft</h5>
+              <ul>
+                <a href="#"><li>Microsoft 1</li></a>
+                <a href="#"><li>Microsoft 2</li></a>
+                <a href="#"><li>Microsoft 3</li></a>
+                <a href="#"><li>Microsoft 4</li></a>
+                <a href="#"><li>Microsoft 5</li></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <hr>
+          <p>Copyright © 2018 Informat. Todos los derechos reservados.</p>
+          <img src="https://gallery.mailchimp.com/918a55afcb7ff18e533d4b663/images/f0230132-7c99-47d8-8ae7-4c6f8af5ec42.png">
+          <img src="https://gallery.mailchimp.com/918a55afcb7ff18e533d4b663/images/5964fa38-dc81-4958-a818-e6e6fb69baee.png">
+        </div>
+      </div>
+    </div>
+  </body>
 </body>
 </html>
