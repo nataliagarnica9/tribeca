@@ -1,7 +1,9 @@
-* {
+body {
  padding: 0;
  margin: 0; 
- font-family: 'Raleway', sans-serif;
+ font-family: 'Nunito', sans-serif !important;
+ overflow-x: hidden;
+ background-color: #F8F9F9 !important;
 }
 
 .logo-tribeca {
@@ -15,6 +17,10 @@
   margin: 0 auto;
 }
 
+.navbar {
+  background-color: #FFFFFF;
+}
+
 .buscar {
   display: block;
   width: 25em;
@@ -26,7 +32,7 @@
   border: 0;
   border-bottom: 2px solid #EAEDED;
   border-radius: 0;
-  background: transparent;
+  background: #FFFFFF;
 }
 
 .buscar:focus {
@@ -60,14 +66,26 @@
   height: 400px;
 }
 
+.texto-tribeca {
+  background-color: #ECF0F1;
+  padding: 30px;
+}
+
 .texto-sobre-nosotros {
-  background: #BFC9CA;
   color: #566573;
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  margin: 0 120px;
+  font-size: 25px;
+}
+
+.texto-tribeca img {
+  margin: 9em 0 0 55em;
+    width: 20%;
 }
 
 .img-pr-tribeca {
-  
+  width: 100%;
 }
 
 /**
